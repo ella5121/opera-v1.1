@@ -1,0 +1,319 @@
+body{
+  background-color: rgb(243, 243, 247);
+  margin-top: 100px;
+}
+.all{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(430px,1fr));
+  grid-template-rows: 300px;
+  margin-bottom: 100px;
+  margin-right: 120px;
+}
+.header{
+ vertical-align: center;
+  min-width: 400px;
+  max-width: 500px;
+  flex: 1;
+  justify-self: center;
+  align-self: center;
+  margin-left: 55px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image{
+  margin-top: -50px;
+  margin-left:30px ;
+  display: flex;
+  justify-content: center;
+}
+.facebook-logo{
+  width: 300px;
+  margin-left: 20px;
+}
+.written{
+  margin-top: -50px;
+  font-size: 23px;
+  text-align: center;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.container{
+  justify-self: center;
+  align-self: flex-start;
+  height: 380px;
+  background-color: white;
+  width: 410px;
+  margin-left: 100px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.input-email-div{
+  margin-top: 20px;
+}
+.input-email{
+  height: 50px;
+  width: 345px;
+  padding-left: 20px;
+  margin-left: 15px;
+  border-radius: 8px;
+  border: 1px solid rgb(212, 211, 211);
+  font-size: 16px;
+}
+.input-password{
+  margin-top: 20px;
+}
+.password{
+  height: 50px;
+  width: 345px;
+  padding-left: 20px;
+  margin-left: 15px;
+  border-radius: 8px;
+  border: 1px solid rgb(212, 211, 211);
+  font-size: 16px;
+}
+.login-button-div{
+  margin-top: 20px;
+}
+.login-button{
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(36, 109, 255) ;
+  height: 50px;
+  width: 370px;
+  padding-left: 20px;
+  margin-left: 15px;
+  border-radius: 8px;
+  border: rgb(36, 109, 255) ;
+  cursor: pointer;
+}
+.forget-password{
+  text-align: center;
+  margin-top: 20px;
+}
+.line{
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.new-button-div{
+  margin-top: 25px;
+  text-align: center;
+}
+.new-button{
+  height: 50px;
+  width: 360px;
+  background-color: rgb(105, 174, 1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0px;
+  cursor: pointer;
+}
+.new-button:hover{
+  background-color: rgb(93, 152, 4);
+}
+.link{
+  font-size: 14px;
+}
+.password-link{
+  text-decoration: none;
+  color: rgb(36, 109, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.password-link:hover{
+  text-decoration: underline;
+}
+
+
+@media ( max-width: 426px) {
+  body{
+    margin-top: 30px;
+  }
+  .all{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(430px,1fr));
+    grid-template-rows: 300px;
+    margin-bottom: 70px;
+    margin-right: 50px;
+  }
+  .header{
+    margin-left: 15px;}
+  .image{
+    margin-top: -20px;
+    margin-left: -10px ;
+  }
+  .facebook-logo{
+    width: 200px;
+    margin-left: 0px;
+  }
+  .written{
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 35px;
+  }
+
+  .container{
+    height: 260px;
+    width: 300px;
+    margin-left: 0px;
+    border-radius: 10px;
+    margin-top: -50px;
+  }
+  .input-email{
+    height: 30px;
+    width: 250px;
+    padding-left: 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 211, 211);
+    font-size: 12px;
+  }
+  .password{
+    height: 30px;
+    width: 250px;
+    padding-left: 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 211, 211);
+    font-size: 12px;
+  }
+  .input-email-div{
+    margin-top: 20px;
+  }
+  .input-password{
+    margin-top: 15px;
+  }
+  .login-button-div{
+    margin-top: 20px;
+  }
+  .login-button{
+    font-size: 13px;
+    height: 30px;
+    width: 273px;
+    padding-left: 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+  }
+  .forget-password{
+    margin-top: 13px;
+  }
+  .link{
+    font-size: 11px;
+  }
+  .line{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .new-button-div{
+    margin-top: 15px;
+    text-align: center;
+  }
+  .new-button{
+    height: 30px;
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 0px;
+    width: 273px;
+  }
+}
+
+@media ( max-width: 531px) {
+  body{
+    margin-top: 30px;
+  }
+  .all{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(430px,1fr));
+    grid-template-rows: 300px;
+    margin-bottom: 70px;
+    margin-right: 0px;
+    margin-left: 0px;
+ 
+  }
+  .header{
+    margin-left: 15px;}
+  .image{
+    margin-top: -20px;
+    margin-left: -10px ;
+  }
+  .facebook-logo{
+    width: 200px;
+    margin-left: 0px;
+  }
+  .written{
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 35px;
+  }
+
+  .container{
+    height: 260px;
+    width: 300px;
+    margin-left: 0px;
+    border-radius: 10px;
+    margin-top: -50px;
+  }
+  .input-email{
+    height: 30px;
+    width: 250px;
+    padding-left: 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 211, 211);
+    font-size: 12px;
+  }
+  .password{
+    height: 30px;
+    width: 250px;
+    padding-left: 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 211, 211);
+    font-size: 12px;
+  }
+  .input-email-div{
+    margin-top: 20px;
+  }
+  .input-password{
+    margin-top: 15px;
+  }
+  .login-button-div{
+    margin-top: 20px;
+  }
+  .login-button{
+    font-size: 13px;
+    height: 30px;
+    width: 273px;
+    padding-left: 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+  }
+  .forget-password{
+    margin-top: 13px;
+  }
+  .link{
+    font-size: 11px;
+  }
+  .line{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .new-button-div{
+    margin-top: 15px;
+    text-align: center;
+  }
+  .new-button{
+    height: 30px;
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 0px;
+    width: 273px;
+  }
+}
